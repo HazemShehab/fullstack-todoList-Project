@@ -42,16 +42,7 @@ interface ButtonProps
   type?: "submit" | "button" | "reset";
 }
 
-const Button = ({
-  variant,
-  size,
-  fullWidth,
-  isLoading,
-  className,
-  children,
-  type,
-  ...props
-}: ButtonProps) => {
+const Button = ({variant,size,fullWidth,isLoading,className,children,type,...props}: ButtonProps) => {
   return (
     <button
       type={type}

@@ -22,16 +22,17 @@ export interface ILoginInput {
 
 export interface IErrorResponse {
   error: {
-    details?: {
-      errors: {
-        message: string;
-      }[];
-    };
+    // details?: {
+    //   errors: {
+    //     message: string;
+    //   }[];
+    // };
     message?: string;
   };
 }
 
 export interface ITodo {
+  documentId:string
   id: number;
   title: string;
   description: string;

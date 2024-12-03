@@ -20,7 +20,7 @@ const Navbar = () => {
         {userData ? (
           <div className="flex items-center text-indigo-600 space-x-4">
             <li className="duration-200 text-lg">
-              <NavLink to="/todos">todos</NavLink>
+              <NavLink to="/todos">Todos</NavLink>
             </li>
             <li className="duration-200 text-lg">
               <NavLink to="/profile">Profile</NavLink>
